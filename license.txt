@@ -1,0 +1,23 @@
+"This software" means the software in the same
+directory as this license or in any subdirectory.
+
+This license shall not be deemed to defeat any law,
+any contract or any applicable agreement.
+You may not use this software in a jurisdiction which
+invalidates the accompanying disclaimer of warranty.
+
+Otherwise, you may use this software pretty much as you see fit.
+You must give credit where credit is due:
+If nothing else, preserve the copyright
+notices and any change notices.
+You must not put blame where it is not due:
+Note any changes you make or cause to be made.
+Neither these requirements nor the disclaimer
+of warranty may be defeated by transfer of this
+software, with or without changes, to another party:
+At the very least, preserve this license,
+the copyright notices and any change notices.
+Note that "at the very least" allows a more restrictive license.
+Note that this license does not preclude
+you from issuing your own warranty.
+If you do so, you must make clear that the warranty is yours.

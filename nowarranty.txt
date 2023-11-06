@@ -1,0 +1,7 @@
+There is no warranty, express or implied, for this software,
+not even that there is a purpose for which it is fit.
+If this disclaimer of warranty is disallowed by applicable law,
+you may not use this software.
+
+Though the author expects that this software works as advertised,
+he will not promise that its use will not make the sun go out.
