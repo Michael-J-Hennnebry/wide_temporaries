@@ -4,39 +4,39 @@ wide_temporaries
 # SYNOPSIS
 #include "wide_temporaries.hh"
 ...
-mjh::wide_temporaries<narrow_t, wide_t>
+mjh::wide_temporaries<narrow_t, wide_t>  
 is a class for floating pointing point computation.
 
 # DESCRIPTION
-mjh::wide_temporaries is a class template
-that wraps a specified floating point type,
-but causes computations to be done in another floating point type,
+mjh::wide_temporaries is a class template  
+that wraps a specified floating point type,  
+but causes computations to be done in another floating point type,  
 also specified.
-The mechanism is simple.
+The mechanism is simple.  
 The class holds a narrow_t datum,
-but will only convert to wide_t.
+but will only convert to wide_t.  
 Both must be floating point types.
 wide_t must be at least as wide as narrow_t.
 
-For completeness, four assignment operators are defined,
+For completeness, four assignment operators are defined,  
 but deprecated as defeating the purpose of wide_temporaries.
 
 # LIMITATIONS
-Though precisely the size of a narrow_t,
-a mjh::wide_temporaries<narrow_t, wide_t> is neither a narrow_t nor a wide_t.
-Other than copying, there is no valid way to pass an array of
-wide_temporaries to a function expecting an array of narrow_t.
-Other than copying, there is no valid way to pass an array of
-narrow_t to a function expecting an array of wide_temporaries.
-There are invalid ways that are pretty much guaranteed to work.
+Though precisely the size of a narrow_t,  
+a mjh::wide_temporaries<narrow_t, wide_t> is neither a narrow_t nor a wide_t.  
+Other than copying, there is no valid way to pass an array of  
+wide_temporaries to a function expecting an array of narrow_t.  
+Other than copying, there is no valid way to pass an array of  
+narrow_t to a function expecting an array of wide_temporaries.  
+There are invalid ways that are pretty much guaranteed to work.  
 Similar issues arise with other aggregates.
 
 # EXAMPLES
-The code in the examples directory is not needed to use wide_tempories.hh .
-To use it, from some directory, which is not terribly important:
-.../wide_temporaries/example/configure.sh
-make syntax  # compiles and links syntax.cc, but does not run it.
-make run     # compiles and links dot.cc and runs ./dot
+The code in the examples directory is not needed to use wide_tempories.hh .  
+To use it, from some directory, which is not terribly important:  
+.../wide_temporaries/example/configure.sh  
+make syntax  # compiles and links syntax.cc, but does not run it.  
+make run     # compiles and links dot.cc and runs ./dot  
 
 # HISTORY
 Before C++ and when C was new,
