@@ -2,8 +2,8 @@
 wide_temporaries
 
 # SYNOPSIS
-#include "wide_temporaries.hh"
-...
+#include "wide_temporaries.hh"  
+...  
 mjh::wide_temporaries<narrow_t, wide_t>  
 is a class for floating pointing point computation.
 
